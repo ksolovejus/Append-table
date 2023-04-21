@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+
+    <div class="grid">
+        <input id="fname" class="border-radius"  placeholder="vardas" type="text" autocomplete="off">
+        
+        <input id="lname" class="border-radius" placeholder="pavardė" type="text" autocomplete="off">
+        
+        <input id="age" class="border-radius" placeholder="amžius" type="text" autocomplete="off">
+
+        <button id="add" class="border-radius">Pridėti</button>
+        <button id="remove-first" class="border-radius">Ištrinti pirmą</button>
+        <button id="remove-last"  class="border-radius">Ištrinti paskutinį</button>
+    </div>
+
+    <table id="table">
+        <tr>
+            <th class="ornage">VARDAS</th>
+            <th class="dark-ornage">PAVARDĖ</th>
+            <th class="ornage">AMŽIUS</th>
+        </tr>
+        <tr>
+            <td>Jonas</th>
+            <td>Rimkus</th>
+            <td>54</th>
+        </tr>
+        <tr>
+            <td>Vestina</th>
+            <td>Petronytė</th>
+            <td>31</th>
+        </tr>
+        <tr>
+            <td>Marius</th>
+            <td>Dulinskas</th>
+            <td>23</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
